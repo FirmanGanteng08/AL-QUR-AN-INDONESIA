@@ -1,0 +1,99 @@
+/* CSS Global untuk Baca Qur'an */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+/* Header Aplikasi */
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00695c;
+    padding: 10px 15px;
+    color: white;
+}
+
+.app-header .back-button img,
+.app-header .app-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+.app-title h1 {
+    font-size: 20px;
+}
+
+/* Tab Menu */
+.tab-menu {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff;
+    border-bottom: 2px solid #ddd;
+}
+
+.tab {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    color: #777;
+    cursor: pointer;
+}
+
+.tab.active {
+    color: #00695c;
+    border-bottom: 3px solid #00695c;
+}
+
+/* Daftar Surah */
+.surah-list {
+    padding: 10px;
+}
+
+.surah-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #ffffff;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.surah-info {
+    display: flex;
+    align-items: center;
+}
+
+.surah-number {
+    background-color: #ffc107;
+    padding: 8px;
+    border-radius: 50%;
+    margin-right: 15px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.surah-name h2 {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.surah-name p {
+    color: #777;
+    font-size: 14px;
+}
+
+.surah-action img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
